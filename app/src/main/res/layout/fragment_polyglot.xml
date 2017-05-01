@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/wBacground"
+    android:orientation="vertical"
+    tools:context="com.hfad.mindbreaker.PolyglotFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <TextView
+        android:id="@+id/new_word"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="135dp"
+        android:gravity="center"
+        android:text="@string/new_word"
+        android:textAlignment="center"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/missingLetter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:ems="3"
+        android:gravity="center"
+        android:hint="@string/stars"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/checkAnswer"
+        style="@style/HabraThemeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="65dp"
+        android:text="@string/check_answer"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/takeHint"
+        style="@style/HabraThemeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:text="@string/take_hint"
+        android:textSize="22sp" />
+
+
+</LinearLayout>

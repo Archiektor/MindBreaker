@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">MindBreaker</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="check_answer">Check answer !</string>
+    <string name="take_hint">Take hint</string>
+    <string name="new_word">New Word</string>
+    <string name="missing_letter">Letter</string>
+    <string name="launch_polyglot">Polyglot</string>
+    <string name="launch_math">Math</string>
+    <string name="action_setDifficult">Complexity</string>
+    <string name="menu_begginer">Begginer</string>
+    <string name="menu_knowing">Knowing</string>
+    <string name="menu_unstoppable">Unstoppable</string>
+    <string name="action_closeApp">Close App</string>
+    <string name="action_switch">Switch</string>
+    <string name="stars">***</string>
+    <string name="missing_number">Number</string>
+    <string name="action_complexity">complexity</string>
+    <string-array name="difficulty_array">
+        <item>Beginer</item>
+        <item>Knowing</item>
+        <item>Unstoppable</item>
+    </string-array>
+</resources>

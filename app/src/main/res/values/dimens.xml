@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="vertical_margin">12dp</dimen>
+    <dimen name="horizontal_margin">12dp</dimen>
+    <dimen name="left_dimen">120dp</dimen>
+    <dimen name="vertical_margin_Math">35dp</dimen>
+    <dimen name="horizontal_margin_Math">15dp</dimen>
+
+</resources>
